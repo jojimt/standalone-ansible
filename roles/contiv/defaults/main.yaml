@@ -31,3 +31,4 @@ apic_leaf_nodes: ""
 apic_phys_dom: ""
 apic_contracts_unrestricted_mode: no
 apic_epg_bridge_domain: not_specified
+kube_cert_dir: "/etc/kubernetes/ssl/certs"
