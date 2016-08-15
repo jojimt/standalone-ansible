@@ -1,0 +1,7 @@
+---
+# This playbook deploys contiv networking on a contiv cluster
+# install contiv netmaster
+- hosts: all
+  roles:
+    - { role: contiv, contiv_role: netmaster }
+    - { role: contiv, contiv_role: netplugin }
